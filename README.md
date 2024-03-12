@@ -1,7 +1,7 @@
 # Data Structures and Algorithms
 
 This repository contains implementations of various data structures and algorithms in C++, Python, and other programming languages. These implementations serve as a reference for understanding fundamental concepts in computer science and practicing problem-solving skills.
-Here you can find the solution of problems from LeetCode , GeekforGeeks , Coding Ninjas, InterviewBits, among various other websites....!!
+Here you can find the solutions to problems from LeetCode, GeekforGeeks, Coding Ninjas, HackerRank, and InterviewBit, among various other websites....!!
 
 ## Table of Contents
 
