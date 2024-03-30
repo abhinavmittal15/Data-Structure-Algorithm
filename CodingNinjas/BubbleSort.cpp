@@ -1,4 +1,4 @@
-//Link to the problem : naukri.com/code360/problems/bubble-sort_980524
+//Link to the problem : https://www.naukri.com/code360/problems/bubble-sort_980524
 
 #include <iostream>
 #include <vector>
