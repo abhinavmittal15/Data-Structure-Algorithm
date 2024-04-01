@@ -17,7 +17,6 @@ class Solution{
                 count++;
             }
         }
-        // If the last word is very long and there is no space after that, we need to return count directly.
         return count;        
     }
 };
