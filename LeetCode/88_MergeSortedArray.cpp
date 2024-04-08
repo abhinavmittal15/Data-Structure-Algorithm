@@ -26,6 +26,7 @@ public:
             nums3.push_back(nums2[j]);
             j++;
         }
+        nums1 = nums3;
     }
 };
 
