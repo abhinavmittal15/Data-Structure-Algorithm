@@ -1,3 +1,5 @@
+//The link to the problem: https://www.naukri.com/code360/problems/maximum-size-rectangle-sub-matrix-with-all-1-s_893017
+
 #include <bits/stdc++.h>
 using namespace std;
 
