@@ -42,6 +42,6 @@ int main() {
     };
     int n = 4, m = 5;
     int maxArea = maximalAreaOfSubMatrixOfAll1(mat, n, m);
-    cout << maxArea << "\n";
+    cout << maxArea << endl;
     return 0;
 }
