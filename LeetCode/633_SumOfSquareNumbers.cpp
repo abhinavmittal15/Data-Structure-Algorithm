@@ -5,8 +5,9 @@ using namespace std;
 
 class Solution {
 public:
-    bool judgeSquareSum(int c) {
-        for(int i=0; i*i<=c; i++){
+    bool judgeSquareSum(long long c) {
+        if(c==0) return true;
+        for(long long i=0; i*i<=c; i++){
             double j = sqrt(c - i*i);
             if(j == int(j)){
                 return true;
