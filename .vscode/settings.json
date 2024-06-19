@@ -118,7 +118,9 @@
     "xloctime": "cpp",
     "xmemory": "cpp",
     "xtr1common": "cpp",
-    "xutility": "cpp"
+    "xutility": "cpp",
+    "set": "cpp",
+    "xtree": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
