@@ -34,12 +34,21 @@ vector<int> quickSort(vector<int> arr){
     return arr;
 }
 
-int main(){
-    vector<int> arr = {5, 4, 3, 2, 1};
-    vector<int> sorted = quickSort(arr);
-    for(int i=0; i<arr.size(); i++){
-        cout << sorted[i] << " ";
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        vector<int> arr(n);
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i]; 
+        }
+        arr = quickSort(arr);
+        for (int i = 0; i < n; i++) {
+            cout << arr[i] << " ";
+        }
+        cout << endl;
     }
-    cout << endl;
     return 0;
 }
