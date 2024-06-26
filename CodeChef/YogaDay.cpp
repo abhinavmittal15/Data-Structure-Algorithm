@@ -1,3 +1,5 @@
+//Link : https://www.codechef.com/START140D/problems/YOGACLASS
+
 #include<iostream>
 using namespace std;
 
