@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution{
-public:
+public: 
     int searchInSorted(int arr[], int N, int K) 
     { 
     
