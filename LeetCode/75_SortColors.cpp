@@ -6,13 +6,26 @@ using namespace std;
 class Solution{
 public:
     void sortColors(vector<int>& nums){
-        for(int i=0; i<nums.size(); i++){
-            for(int j=nums.size()-1; j>=i; j--){
-                if(nums[i] > nums[j]){
-                    int temp = nums[i];
-                    nums[i] = nums[j];
-                    nums[j] = temp;
-                }
+        int low = 0;
+        int mid = 0;
+        int high = nums.size()-1;
+
+        while(mid <= high){
+            if(nums[mid] == 0){
+                int temp = nums[low];
+                nums[low] = nums[mid];
+                nums[mid] = temp;
+                low++;
+                mid++;
+            }
+            else if(nums[mid] == 1){
+                mid++;
+            }
+            else{
+                int temp = nums[mid];
+                nums[mid] = nums[high];
+                nums[high] = temp;
+                high--;
             }
         }
     }
