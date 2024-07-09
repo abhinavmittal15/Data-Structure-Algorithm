@@ -120,7 +120,8 @@
     "xtr1common": "cpp",
     "xutility": "cpp",
     "set": "cpp",
-    "xtree": "cpp"
+    "xtree": "cpp",
+    "iomanip": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
