@@ -7,6 +7,7 @@
 using namespace std;
 
 void dfs(int node, unordered_map<int, bool>& visited, unordered_map<int, list<int> >& adjList, vector<int>& component){
+    //component stores the answer which is going to the main function to be returned to the final answer
     component.push_back(node);
     visited[node] = true;
 
