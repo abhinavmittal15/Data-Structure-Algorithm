@@ -5,7 +5,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int findFloor(vector<long long> arr, long long n, long long x) {
 
         int s = 0;
