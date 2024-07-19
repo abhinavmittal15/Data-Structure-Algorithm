@@ -10,15 +10,18 @@ public:
 
         int s = 0;
         int e = n-1;
-        int ans = 0;
+        int ans = -1;
         while(s <= e){
             int m = s + (e - s)/2;
-            if(arr[m] >= x){
+            if(arr[m] == x){
+                return m;
+            }
+            else if(arr[m] >= x){
                 e = m - 1;
-                ans = m;
             }
             else{
                 s = m + 1;
+                ans = m;
             }
         }
         return ans;
