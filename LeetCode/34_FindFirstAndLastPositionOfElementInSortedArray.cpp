@@ -6,29 +6,48 @@ class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
         int n = nums.size();
+        int lb = lowerBound(nums, n, target);
+        if(lb == n || nums[lb] != target){
+            return {-1, -1};
+        }
+        int ub = upperBound(nums, n, target);
+        return {lb, ub - 1};
+    }
+private:
+    int lowerBound(vector<int> arr, int n, int k){
         int s = 0;
-        int e = n - 1;
-        vector<int> ans;
+        int e = n-1;
+        int ans = n;
         while(s <= e){
             int m = s + (e-s)/2;
-            if(nums[m] == target){
-                ans.push_back(m);
-                if(nums[m+1] == nums[m]){
-                    ans.push_back(m+1);
-                }
-                else if(nums[m-1] == nums[m]){
-                    ans.push_back(m-1);
-                }
-            }
-            else if(nums[m] < target){
-                s = m + 1;
+            if(arr[m] >= k){
+                e = m - 1;
+                ans = m;
             }
             else{
-                e = m - 1;
+                s = m + 1;
             }
         }
         return ans;
     }
+
+    int upperBound(vector<int> arr, int n, int k){
+        int s = 0;
+        int e = n-1;
+        int ans = n;
+        while(s <= e){
+            int m = s + (e-s)/2;
+            if(arr[m] > k){
+                e = m - 1;
+                ans = m;
+            }
+            else{
+                s = m + 1;
+            }
+        }
+        return ans;
+    }
+
 };
 
 int main(){
