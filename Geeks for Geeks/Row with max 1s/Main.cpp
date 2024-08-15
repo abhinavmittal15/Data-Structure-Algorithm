@@ -6,19 +6,17 @@ public:
     int rowWithMax1s(vector<vector<int> > &arr) {
         int n = arr.size();
         int m = arr[0].size();
-        int maxCount = 0;
+        int r = 0;
+        int c = m -1;
         int rowIndex = -1;
-
-        for(int i=0; i<n; i++){
-            int count = 0;
-            for(int j=0; j<m; j++){
-                if(arr[i][j] == 1){
-                    count++;
-                }
+        
+        while(r < n && c >= 0){
+            if(arr[r][c] == 1){
+                rowIndex = r;
+                c--;
             }
-            if(count > maxCount){
-                maxCount = count;
-                rowIndex = i;
+            else{
+                r++;
             }
         }
         return rowIndex;
