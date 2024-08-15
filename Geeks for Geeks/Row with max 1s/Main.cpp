@@ -2,22 +2,26 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int rowWithMax1s(vector<vector<int> > &arr) {
         int n = arr.size();
         int m = arr[0].size();
-        int count = 0;
-        int maxi = 0;
+        int maxCount = 0;
+        int rowIndex = -1;
+
         for(int i=0; i<n; i++){
+            int count = 0;
             for(int j=0; j<m; j++){
                 if(arr[i][j] == 1){
                     count++;
                 }
             }
-            maxi = max(maxi, count);
-            return i;
+            if(count > maxCount){
+                maxCount = count;
+                rowIndex = i;
+            }
         }
-        return -1;
+        return rowIndex;
     }
 };
 
