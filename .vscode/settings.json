@@ -123,5 +123,13 @@
     "xtree": "cpp",
     "iomanip": "cpp"
   },
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "java.project.sourcePaths": [
+    "LeetCode/885. Spiral Matrix III",
+    "LeetCode/875. Koko Eating Bananas",
+    "LeetCode/860. Lemonade Change",
+    "LeetCode/264. Ugly Number II",
+    "LeetCode/1901. Find a Peak Element II",
+    "LeetCode/1021. Remove Outermost Parentheses"
+  ]
 }
