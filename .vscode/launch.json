@@ -63,9 +63,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/workspaces/Data-Structure-Algorithm",
-      "program": "/workspaces/Data-Structure-Algorithm/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "d:/Code/Data-Structure-Algorithm/LeetCode/1901. Find a Peak Element II",
+      "program": "d:/Code/Data-Structure-Algorithm/LeetCode/1901. Find a Peak Element II/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
