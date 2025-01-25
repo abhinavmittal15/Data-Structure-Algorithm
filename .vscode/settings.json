@@ -121,7 +121,9 @@
     "xutility": "cpp",
     "set": "cpp",
     "xtree": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "source_location": "cpp",
+    "stacktrace": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled",
   "java.project.sourcePaths": [

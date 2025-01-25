@@ -64,8 +64,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Code/Data-Structure-Algorithm/LeetCode/1901. Find a Peak Element II",
-      "program": "d:/Code/Data-Structure-Algorithm/LeetCode/1901. Find a Peak Element II/build/Debug/outDebug",
+      "cwd": "d:/Code/Data-Structure-Algorithm/Geeks for Geeks/Delete in a Doubly Linked List",
+      "program": "d:/Code/Data-Structure-Algorithm/Geeks for Geeks/Delete in a Doubly Linked List/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
