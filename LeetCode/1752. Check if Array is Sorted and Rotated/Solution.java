@@ -22,7 +22,7 @@ public class Solution {
         }
 
         Solution obj = new Solution();
-        // int[] nums = {3, 4, 5, 1, 2};
+        //Example:  int[] nums = {3, 4, 5, 1, 2};
         System.out.println(obj.check(nums));
     }
 };
